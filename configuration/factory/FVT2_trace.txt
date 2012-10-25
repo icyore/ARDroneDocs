@@ -1,0 +1,148 @@
+SMZ2G337MAA
+CParrot
+PFVT2MB
+p11
+NHUAPARROTFVT350
+BMykonos2
+nPI040254
+rAA
+Lbay31
+RV2.01
+WN/A
+TP
+[2012-07-26 21:54:26
+]2012-07-26 21:54:57
+
+MGet test bench software version
+> 000 - Base DLL version : V01.07 - Sep 30 2011 14:47:36
+> 001 - Script version   : V02.01.01
+> 002 - Mykonos DLL version : V02.02 - Sep 30 2011 14:47:58
+> 003 - Io board : open USB 1208-LS board n°1(ID 115)
+> start time :   0.000
+> duration   :   0.000
+
+MInit wifi tester
+> 000 - WIFI tester: Init Session
+> 001 - Wait 100 ms
+> start time :   0.000
+> duration   :   1.344
+
+MReset product in Normal mode
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output 12V_DUT_ON
+> 003 - Wait 5000 ms
+> start time :   1.344
+> duration   :   6.047
+
+MCheck Test current consumption
+> 000 - Current consumption MOTHER_BOARD                   +75.791 mA OK       (min = +40.000mA, max = +90.000mA)
+> start time :   7.391
+> duration   :   0.328
+
+MInit Atheros chip
+> 000 - open Debug UART
+> 001 - debug UART: Send command wifi_testmode.sh
+> 002 - Wait 3000 ms
+> start time :   7.719
+> duration   :   5.062
+
+MCheck Atheros chip Transmission mode at channel 1 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --tx tx99 --txfreq 1 --txrate 11 --txpwr 30 --txantenna 1
+> 001 - WIFI tester: Set Configuration to Reception: frequency=+2.412e+009 Hz, power range=+20.000 dBm
+> 002 - WIFI tester: Start Measure for EVM_RMS measure
+> 003 - WIFI tester: test EVM RMS measure:                               +3.928 % OK       (min =  +0.000 %, max =  +5.600 %)
+> 004 - WIFI tester: Start Measure for Frequency error measure
+> 005 - WIFI tester: test frequency error measure:                       -9.822 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> 006 - WIFI tester: Start Measure for Occupied bandwidth measure
+> 007 - WIFI tester: test occupied bandwidth measure:                    +1.635e+007 Hz OK       (min = +0.000e+000 Hz, max = +2.600e+007 Hz)
+> 008 - WIFI tester: Start Measure for Average power measure
+> 009 - WIFI tester: Get Average power measure: 7.03434 dBm
+> 010 - WIFI tester: Start Measure for Symbol Clock Error measure
+> 011 - WIFI tester: test symbol clock error measure:                    -8.530 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> start time :  12.781
+> duration   :   2.344
+
+MCheck Atheros chip Transmission mode at channel 6 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --tx tx99 --txfreq 6 --txrate 11 --txpwr 30 --txantenna 1
+> 001 - WIFI tester: Set Configuration to Reception: frequency=+2.437e+009 Hz, power range=+20.000 dBm
+> 002 - WIFI tester: Start Measure for EVM_RMS measure
+> 003 - WIFI tester: test EVM RMS measure:                               +4.191 % OK       (min =  +0.000 %, max =  +5.600 %)
+> 004 - WIFI tester: Start Measure for Frequency error measure
+> 005 - WIFI tester: test frequency error measure:                      -10.294 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> 006 - WIFI tester: Start Measure for Occupied bandwidth measure
+> 007 - WIFI tester: test occupied bandwidth measure:                    +1.635e+007 Hz OK       (min = +0.000e+000 Hz, max = +2.600e+007 Hz)
+> 008 - WIFI tester: Start Measure for Average power measure
+> 009 - WIFI tester: Get Average power measure: 6.25614 dBm
+> 010 - WIFI tester: Start Measure for Symbol Clock Error measure
+> 011 - WIFI tester: test symbol clock error measure:                    -8.787 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> start time :  15.125
+> duration   :   2.375
+
+MCheck Atheros chip Transmission mode at channel 13 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --tx tx99 --txfreq 13 --txrate 11 --txpwr 30 --txantenna 1
+> 001 - WIFI tester: Set Configuration to Reception: frequency=+2.472e+009 Hz, power range=+20.000 dBm
+> 002 - WIFI tester: Start Measure for EVM_RMS measure
+> 003 - WIFI tester: test EVM RMS measure:                               +4.177 % OK       (min =  +0.000 %, max =  +5.600 %)
+> 004 - WIFI tester: Start Measure for Frequency error measure
+> 005 - WIFI tester: test frequency error measure:                      -10.672 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> 006 - WIFI tester: Start Measure for Occupied bandwidth measure
+> 007 - WIFI tester: test occupied bandwidth measure:                    +1.634e+007 Hz OK       (min = +0.000e+000 Hz, max = +2.600e+007 Hz)
+> 008 - WIFI tester: Start Measure for Average power measure
+> 009 - WIFI tester: Get Average power measure: 6.81298 dBm
+> 010 - WIFI tester: Start Measure for Symbol Clock Error measure
+> 011 - WIFI tester: test symbol clock error measure:                   -10.256 ppm OK       (min = -25.000 ppm, max = +25.000 ppm)
+> start time :  17.516
+> duration   :   2.375
+
+MCheck Atheros chip Reception mode at channel n°1 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --rx promis --rxfreq 1 --rxantenna 1
+> 001 - WIFI tester: Stop Transmission
+> 002 - WIFI tester: Set Configuration to Transmission. Start playing sequence : 54OFDM_64QAM_1000B.SEQ with power -60.000 dBm
+> 003 - Chip Atheros : athtestcmd -i ath0 --rx report
+> 004 - WIFI tester: Stop Transmission
+> 005 - Chip Atheros: calculate PER:                                     +8.929 % OK       (max = +10 %)
+> start time :  19.906
+> duration   :   2.766
+
+MCheck Atheros chip Reception mode at channel n°2 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --rx promis --rxfreq 6 --rxantenna 1
+> 001 - WIFI tester: Set Configuration to Transmission. Start playing sequence : 54OFDM_64QAM_1000B.SEQ with power -60.000 dBm
+> 002 - Chip Atheros : athtestcmd -i ath0 --rx report
+> 003 - WIFI tester: Stop Transmission
+> 004 - Chip Atheros: calculate PER:                                     +0.000 % OK       (max = +10 %)
+> start time :  22.688
+> duration   :   2.578
+
+MCheck Atheros chip Reception mode at channel n°3 antenna 1
+> 000 - Chip Atheros : athtestcmd -i ath0 --rx promis --rxfreq 13 --rxantenna 1
+> 001 - WIFI tester: Set Configuration to Transmission. Start playing sequence : 54OFDM_64QAM_1000B.SEQ with power -60.000 dBm
+> 002 - Chip Atheros : athtestcmd -i ath0 --rx report
+> 003 - WIFI tester: Stop Transmission
+> 004 - Chip Atheros: calculate PER:                                     +0.000 % OK       (max = +10 %)
+> start time :  25.281
+> duration   :   2.594
+
+MOpen USB communication
+> 000 - Add communication USB_0
+> 001 - Io board : digital output PWR_5V_DUT_ON
+> 002 - Open communication   USB_0 with vendor ID 0x19cf, product ID 0x1000, timeout 10000
+> 003 - Select communication USB_0
+> start time :  27.891
+> duration   :   0.922
+
+MGet embedded test software version
+> 000 - Embedded software version : V01.06 (Dec 21 2011, 17:43:46)
+> start time :  28.828
+> duration   :   0.110
+
+MSave FVT2 OK status into product
+> 000 - Add FVT2 n°0 with status OK
+> start time :  28.953
+> duration   :   1.407
+
+MSave test scripts into product
+> 000 - Upload PC file TRACES\\TESTER_1\\scripts.zip to embedded /factory/FVT2_scripts.zip
+> start time :  30.375
+> duration   :   0.469
+

@@ -1,0 +1,189 @@
+SMZ2G337MAA
+CPARROT
+PFVT1MB
+p11
+NHUAPARROTFVT418
+BMYKONOS2
+nPI040254
+rAC
+LBAY31
+RV2.10
+WN/A
+TP
+[2012-07-26 21:52:57
+]2012-07-26 21:53:54
+
+MGet test bench software version
+> 000 - Base DLL version : V01.07 - Sep 30 2011 14:47:36
+> 001 - Script version   : V02.10.00
+> 002 - Mykonos DLL version : V02.16 - Jul 13 2012 18:06:08
+> 003 - Io board : open USB 1208-LS board n°1(ID 69)
+> start time :   0.000
+> duration   :   0.000
+
+MReset product in normal mode
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output 12V_DUT_ON
+> 003 - Wait 500 ms
+> start time :   0.000
+> duration   :   1.562
+
+MCheck Test current consumption
+> 000 - Current consumption MOTHER_BOARD                   +43.901 mA OK       (min = +30.000mA, max = +80.000mA)
+> start time :   1.562
+> duration   :   0.328
+
+MCheck voltage level
+> 000 - Voltage 5V               +4.967 V OK       (min =  +4.750V, max =  +5.250V)
+> 001 - Voltage VIN_3V6          +3.612 V OK       (min =  +3.480V, max =  +3.720V)
+> 002 - Voltage VDD1_IVA         +1.202 V OK       (min =  +1.100V, max =  +1.300V)
+> 003 - Voltage VDD2_CORE        +1.202 V OK       (min =  +1.100V, max =  +1.300V)
+> 004 - Voltage VIO_1V8          +1.803 V OK       (min =  +1.700V, max =  +1.900V)
+> 005 - Voltage VPLL1            +1.813 V OK       (min =  +1.700V, max =  +1.900V)
+> 006 - Voltage VMMC1            +3.005 V OK       (min =  +2.900V, max =  +3.100V)
+> 007 - Voltage 3V3_WIFI         +3.348 V OK       (min =  +3.200V, max =  +3.400V)
+> start time :   1.890
+> duration   :   2.625
+
+MCheck 26 MHz quartz
+> 000 - Frequency meter initialization OK, identification PENDULUM, CNT-90, 196863, V1.28 25 Aug 2010 11:52
+> 001 - Frequency meter send command MEAS:FREQ? (@1)\n OK
+> 002 - Wait 100 ms
+> 003 - Frequency meter send command :INP1:LEV:AUTO ON OK
+> 004 - Wait 100 ms
+> 005 - Frequency meter send command :INP1:SLOP POS OK
+> 006 - Wait 100 ms
+> 007 - Frequency meter send command :INP1:COUP AC OK
+> 008 - Wait 100 ms
+> 009 - Frequency meter send command :INP1:IMP 1000000 OK
+> 010 - Wait 100 ms
+> 011 - Frequency meter send command :INP1:ATT 1 OK
+> 012 - Wait 100 ms
+> 013 - Get frequency value : 26000090.000000Hz
+> 014 - Check frequency 26000090.000000Hz OK (min = 25999480.000000Hz, max = 26000520.000000Hz)
+> start time :   4.515
+> duration   :   2.797
+
+MFlash embedded firmware in ROM
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output PWR_5V_DUT_ON
+> 003 - Wait 500 ms
+> 004 - Io board : digital output 12V_DUT_ON
+> 005 - Flashing : USB Wait for device with vendor=0x451 product=0xd00e enum_timeout=10000
+> 006 - Flashing : USB Upload bin file BINARY\\mykonos2_inst_usb_bootldr.bin with write_timeout=5000
+> 007 - Flashing : USB release device
+> 008 - Flashing : USB Wait for device with vendor=0x451 product=0xcafe enum_timeout=10000
+> 009 - Flashing :USB Upload plf file BINARY\\mykonos2_prod_installer_installer.fastboot with write_timeout=5000 error_code_timeout=5000
+> 010 - Flashing : USB release device
+> 011 - Wait 100 ms
+> 012 - Flashing : USB Wait for device with vendor=0x19cf product=0x1000 enum_timeout=10000
+> 013 - Flashing : USB Upload plf file BINARY\\mykonos2_test_software_rom.plf with write_timeout=5000 error_code_timeout=5000
+> start time :   7.312
+> duration   :  29.422
+
+MReset product in normal mode
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output 12V_DUT_ON
+> start time :  36.734
+> duration   :   1.062
+
+MOpen USB communication
+> 000 - Wait 6000 ms
+> 001 - Io board : digital output PWR_5V_DUT_ON
+> 002 - Add communication USB_0
+> 003 - Open communication   USB_0 with vendor ID 0x19cf, product ID 0x1000, timeout 5000
+> 004 - Select communication USB_0
+> start time :  37.812
+> duration   :   6.703
+
+MCheck embedded test software version
+> 000 - Embedded software version : V01.06 (Dec 21 2011, 17:43:46)
+> start time :  44.515
+> duration   :   0.110
+
+MCheck Reset button
+> 000 - Check gpio n°87 to state 0 SUCCESSFUL
+> 001 - Check reset button number 87 SUCCESSFUL
+> start time :  44.640
+> duration   :   1.844
+
+MCheck uart nav board
+> 000 - Add communication UART_2
+> 001 - Open communication UART_2 with port COM1, overspeed 1, baudrate 115200
+> 002 - Select communication UART_2
+> 003 - Embedded software version : V01.06 (Dec 21 2011, 17:43:46)
+> 004 - Close communication  UART_2
+> 005 - Select communication USB_0
+> start time :  46.484
+> duration   :   0.250
+
+MCheck uart motor 1
+> 000 - Test motor : CHECK_MOTOR1_UART_LOOP, with number 10
+> start time :  46.734
+> duration   :   0.156
+
+MCheck uart motor 2
+> 000 - Test motor : CHECK_MOTOR2_UART_LOOP, with number 10
+> start time :  46.890
+> duration   :   0.156
+
+MCheck uart motor 3
+> 000 - Test motor : CHECK_MOTOR3_UART_LOOP, with number 10
+> start time :  47.046
+> duration   :   0.141
+
+MCheck uart motor 4
+> 000 - Test motor : CHECK_MOTOR4_UART_LOOP, with number 10
+> start time :  47.203
+> duration   :   0.140
+
+MCheck motor fault signal
+> 000 - Io board : digital output 5V_FAULT_OFF
+> 001 - Wait 500 ms
+> 002 - Check gpio n°176 to state 0 SUCCESSFUL
+> 003 - Io board : digital output 5V_FAULT_ON
+> 004 - Wait 1000 ms
+> 005 - Check gpio n°176 to state 1 SUCCESSFUL
+> 006 - Io board : digital output 5V_FAULT_OFF
+> start time :  47.343
+> duration   :   1.750
+
+MCheck WiFi module communication
+> 000 - Console : wifi_testmode.sh  >/tmp/wifi_log.txt
+> 001 - Wait 3000 ms
+> 002 - Download embedded file /tmp/wifi_log.txt to PC TRACES\\wifi_log.txt
+> 003 - Analyze text file OK, "bmiloader: ath0: Input/output error" is not present
+> 004 - Analyze text file OK, "BMI Done" is present
+> start time :  49.093
+> duration   :   5.860
+
+MSave MAC address
+> 000 - MAC address : get address 90:03:B7:32:76:2D
+> 001 - Set parameter parameters/mac_address/value to 90:03:B7:32:76:2D
+> 002 - Console : echo '90:03:B7:32:76:2D' >factory/mac_address.txt
+> start time :  54.953
+> duration   :   0.250
+
+MSave PCB number
+> 000 - Set parameter factory_info/product_info/pcb_number/value to MZ2G337MAA
+> start time :  55.218
+> duration   :   0.141
+
+MSave product name
+> 000 - Set parameter factory_info/product_info/name/value to Mykonos2
+> start time :  55.359
+> duration   :   0.141
+
+MSave FVT1 OK status into product
+> 000 - Add FVT1 n°0 with status OK
+> start time :  55.500
+> duration   :   1.312
+
+MSave test scripts into product
+> 000 - Upload PC file TRACES\\TESTER_1\\scripts.zip to embedded /factory/FVT1_scripts.zip
+> start time :  56.812
+> duration   :   0.453
+

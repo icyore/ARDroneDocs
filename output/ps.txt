@@ -1,0 +1,61 @@
+  PID USER       VSZ STAT COMMAND
+    1 root      2736 S    init       
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    4 root         0 SW   [watchdog/0]
+    5 root         0 SW   [events/0]
+    6 root         0 SW   [khelper]
+   10 root         0 SW   [async/mgr]
+   13 root         0 SW   [suspend]
+  188 root         0 SW   [sync_supers]
+  190 root         0 SW   [bdi-default]
+  192 root         0 SW   [kblockd/0]
+  200 root         0 SW   [omap2_mcspi]
+  207 root         0 SW   [ksuspend_usbd]
+  212 root         0 SW   [khubd]
+  215 root         0 SW   [kseriod]
+  224 root         0 SW   [twl4030-irqchip]
+  225 root         0 SW   [twl4030-irq]
+  238 root         0 SW   [kmmcd]
+  254 root         0 SW   [rpciod/0]
+  269 root         0 SW   [mboxd/0]
+  274 root         0 SW   [khungtaskd]
+  275 root         0 SW   [kswapd0]
+  277 root         0 SW   [aio/0]
+  278 root         0 SW   [nfsiod]
+  279 root         0 SW   [crypto/0]
+  417 root         0 SW   [mtdblockd]
+  439 root         0 SW   [ubi_bgt0d]
+  442 root         0 SW   [ubi_bgt1d]
+  446 root         0 SW   [ubi_bgt2d]
+  480 root         0 SW   [bridge_rec_queu]
+  481 root         0 SW   [dsp-mmu_wq/0]
+  485 root         0 SW   [kondemand/0]
+  494 root         0 SW   [usbhid_resumer]
+  497 root         0 SW   [binder]
+  526 root         0 SW   [ubifs_bgt1_0]
+  538 root         0 SW   [ubifs_bgt2_0]
+  540 root         0 SW   [ubifs_bgt2_1]
+  578 root      1784 S <  udevd --daemon 
+  581 root      1780 S <  udevd --daemon 
+  583 root      1780 S <  udevd --daemon 
+  598 root         0 SW   [AR6K Async]
+  743 root         0 SW   [ksdioirqd/mmc1]
+  776 root      1672 S    /bin/factory_reset_cb 
+  777 root      2744 S    /bin/sh /bin/memory_check.sh 
+  807 root      2824 S    inetd 
+  808 root      2744 S    /bin/sh /bin/check_update.sh 
+  810 root     84868 S    /bin/program.elf -360p.slices 0 -live.tcp 
+  811 root      2736 S    init       
+  812 root      2736 S    init       
+  813 root      2736 S    /sbin/syslogd -n -m 0 
+  814 root      2736 S    /sbin/klogd -n 
+  878 root      2832 S    telnetd -l /bin/sh 
+  880 root      2740 S    udhcpd /tmp/udhcpd.conf 
+ 3643 root         0 SW   [flush-ubifs_2_1]
+ 3741 root      2740 S    /bin/sh 
+ 3743 root         0 SW   [flush-ubifs_1_0]
+ 3744 root         0 SW   [flush-ubifs_2_0]
+ 3859 root      2740 S    /bin/sh 
+ 3881 root      2604 S    sleep 10 
+ 3882 root      2824 R    ps 

@@ -1,0 +1,201 @@
+SPS721000AF2G091044
+Cparrot
+PFVT3
+p11
+NHUAPARROTFVT360
+BMYKONOS2
+nPI040254
+rAD
+LBAY31
+RV3.13
+WV2.1.18
+TP
+[2012-07-27 00:55:20
+]2012-07-27 00:57:25
+
+MGet test bench software version
+> 000 - Base DLL version : V01.07 - Mar  9 2012 18:36:19
+> 001 - Script version   : V03.13.02
+> 002 - Mykonos DLL version : V02.14 - Apr 19 2012 16:58:37
+> 003 - Io board : open USB 1208-LS board n°1(ID 145)
+> 004 - Network : Network P: is available
+> start time :   0.000
+> duration   :   0.000
+
+MReset product in normal mode
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output 12V_DUT_ON
+> 003 - Wait 6000 ms
+> start time :   0.000
+> duration   :   7.078
+
+MOpen USB communication
+> 000 - Io board : digital output PWR_5V_DUT_ON
+> 001 - Add communication USB_0
+> 002 - Open communication   USB_0 with vendor ID 0x19cf, product ID 0x1000, timeout 5000
+> start time :   7.078
+> duration   :   5.000
+
+MOpen uart com port
+> 000 - Uart console : open com port COM17, baudrate 115200, overspeed 1 OK
+> start time :  12.078
+> duration   :   0.094
+
+MFlash embedded firmware in ROM
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output PWR_5V_DUT_ON
+> 003 - Wait 500 ms
+> 004 - Io board : digital output 12V_DUT_ON
+> 005 - Flashing : USB Wait for device with vendor=0x451 product=0xd00e enum_timeout=10000
+> 006 - Flashing : USB Upload bin file BINARY\\ardrone2_inst_usb_bootldr.bin with write_timeout=5000
+> 007 - Flashing : USB release device
+> 008 - Flashing : USB Wait for device with vendor=0x451 product=0xcafe enum_timeout=10000
+> 009 - Flashing :USB Upload plf file BINARY\\mykonos2_prod_installer_non_erasing_installer.fastboot with write_timeout=5000 error_code_timeout=5000
+> 010 - Flashing : USB release device
+> 011 - Wait 2000 ms
+> 012 - Flashing : USB Wait for device with vendor=0x19cf product=0x1000 enum_timeout=10000
+> 013 - Flashing : USB Upload plf file BINARY\\mykonos2_test_software_rom_factory_save.plf with write_timeout=5000 error_code_timeout=5000
+> 014 - Wait 3000 ms
+> start time :  12.172
+> duration   :  31.187
+
+MClose uart Com port
+> 000 - Uart console : close uart
+> start time :  43.359
+> duration   :   0.235
+
+MReset product in normal mode
+> 000 - Io board : all output off USB 1208-LS
+> 001 - Wait 1000 ms
+> 002 - Io board : digital output 12V_DUT_ON
+> 003 - Wait 6000 ms
+> start time :  43.594
+> duration   :   7.062
+
+MConnect USB key to PC
+> 000 - Io board : digital output PWR_5V_DUT_OFF
+> 001 - Select image : Reset
+> 002 - Select image : Add image PLUG_USB_KEY.jpg
+> 003 - Select image : Show
+> 004 - Select image : Wait for selection (timeout = 180000ms)
+> 005 - Select image : selected image n°0
+> 006 - Select image : Hide
+> start time :  50.656
+> duration   :  10.453
+
+MOpen uart com port
+> 000 - Uart console : open com port COM17, baudrate 115200, overspeed 1 OK
+> start time :  61.125
+> duration   :   0.109
+
+MUsb Key Mass storage test
+> 000 - Uart console : execute /bin/usb_key_mass_storage_test.sh
+> 001 - Usb Key Test: Writing/Reading access SUCCESSFUL
+> start time :  61.234
+> duration   :   9.985
+
+MConnect Drone USB to PC
+> 000 - Select image : Reset
+> 001 - Select image : Add image UNPLUG_USB_KEY.jpg
+> 002 - Select image : Show
+> 003 - Select image : Wait for selection (timeout = 180000ms)
+> 004 - Select image : selected image n°0
+> 005 - Select image : Hide
+> 006 - Uart console : Test Usb Key presence
+> 007 - Usb Key presence: Not present: OK
+> start time :  71.219
+> duration   :  13.390
+
+MClose uart Com port
+> 000 - Uart console : close uart
+> start time :  84.609
+> duration   :   0.235
+
+MOpen USB communication
+> 000 - Add communication USB_0
+> 001 - Io board : digital output PWR_5V_DUT_ON
+> 002 - Open communication   USB_0 with vendor ID 0x19cf, product ID 0x1000, timeout 10000
+> 003 - Select communication USB_0
+> start time :  84.844
+> duration   :   0.812
+
+MTest Nav board
+> 000 - Upload PC file BINARY//MYKONOS2.hex to embedded /tmp/MYKONOS2.hex
+> 001 - Nav control : Flash Firmware: wait 20 seconds...
+> 002 - Nav control : init
+> 003 - Nav 0 firmware version : 0x00050020
+> 004 - Nav control : Get Pressure Calibration data
+> 005 - Nav board : check Magneto Selftest SUCCESSFUL
+> 006 - Nav control : start thread
+> 007 - Wait 1000 ms
+> 008 - Nav control : start acquisition
+> 009 - Wait 100 ms
+> 010 - Nav board : check ultrasound distance to 47cm with 10% tolerance
+> 011 - Nav board : 45.72cm; 45.67cm; 45.70cm; 45.70cm; 45.72cm; 45.70cm; 936.82cm; 45.70cm; 45.80cm; 45.61cm; SUCCESSFUL
+> 012 - Nav board : check Accelerometer X value to 2048 with 8% tolerance
+> 013 - Nav board : 2016; 2020; 2020; 2020; 2016; SUCCESSFUL
+> 014 - Nav board : check Accelerometer Y value to 2048 with 8% tolerance
+> 015 - Nav board : 2012; 2012; 2012; 2012; 2012; SUCCESSFUL
+> 016 - Nav board : check Accelerometer Z value to 3096 with 8% tolerance
+> 017 - Nav board : 3060; 3060; 3060; 3060; 3060; SUCCESSFUL
+> 018 - Nav board : check Gyro X value between min = -1000 and max = 1000
+> 019 - Nav board : -24; -23; -23; -23; -24; SUCCESSFUL
+> 020 - Nav board : check Gyro Y value between min = -1000 and max = 1000
+> 021 - Nav board : 23; 31; 31; 33; 35; SUCCESSFUL
+> 022 - Nav board : check Gyro Z value between min = -1000 and max = 1000
+> 023 - Nav board : -9; -9; -8; -9; -7; SUCCESSFUL
+> 024 - Nav control : stop thread
+> start time :  85.656
+> duration   :  26.266
+
+MTest horizontal cam
+> 000 - Init camera SOC1040
+> 001 - Start camera device n°0(width:1280 height:720)
+> 002 - Camera snapshot on device n° 0 to file /tmp/HorizontalCam.uyvy
+> 003 - Stop camera device n°0
+> 004 - Download embedded file /tmp/HorizontalCam.uyvy to PC BINARY//HorizontalCam_PS721000AF2G091044_07272012_0055.uyvy
+> 005 - Image convert : BINARY//HorizontalCam_PS721000AF2G091044_07272012_0055.uyvy to BINARY//HorizontalCam_PS721000AF2G091044_07272012_0055.yuv
+> 006 - Image convert : BINARY//HorizontalCam_PS721000AF2G091044_07272012_0055.yuv to PICTURES//HorizontalCam_PS721000AF2G091044_07272012_0055.bmp
+> 007 - Camera : test roll, pan, tilt on picture BINARY//HorizontalCam_PS721000AF2G091044_07272012_0055.yuv
+> 008 - Camera : detected roll 1.61489 OK (tol 3°)
+> 009 - Camera : detected pan  -0.516164 OK (tol 5°)
+> 010 - Camera : detected tilt -3.81407 OK (tol 5°)
+> start time : 111.922
+> duration   :   6.406
+
+MTest vertical cam
+> 000 - Init camera OV7670
+> 001 - Start camera device n°1(width:320 height:240)
+> 002 - Camera snapshot on device n° 1 to file /tmp/VerticalCam.uyvy
+> 003 - Stop camera device n°1
+> 004 - Download embedded file /tmp/VerticalCam.uyvy to PC BINARY//VerticalCam_PS721000AF2G091044_07272012_0055.uyvy
+> 005 - Image convert : BINARY//VerticalCam_PS721000AF2G091044_07272012_0055.uyvy to BINARY//VerticalCam_PS721000AF2G091044_07272012_0055.yuv
+> 006 - Image convert : BINARY//VerticalCam_PS721000AF2G091044_07272012_0055.yuv to PICTURES//VerticalCam_PS721000AF2G091044_07272012_0055.bmp
+> 007 - Camera : test blister cover on camera OV7670: Blister is well placed
+> 008 - Camera : test roll on picture BINARY//VerticalCam_PS721000AF2G091044_07272012_0055.yuv
+> 009 - Camera : detected roll 0.0737422 OK (tol 3°)
+> 010 - Camera: found deviation of camera on the drone: cx=148 cy=126 roll=0.00128704
+> 011 - Camera : test cx value 148 OK (min = 118, max = 182)
+> 012 - Camera : test cy value 126 OK (min = 85, max = 160)
+> 013 - send camera calibration data to factory/vertical_camera_calibration.txt
+> start time : 118.328
+> duration   :   4.047
+
+MSave PI number
+> 000 - Set parameter factory_info/product_info/pi_number/value to PS721000AF2G091044
+> 001 - Console : echo 'PS721000AF2G091044' >factory/serial.txt
+> start time : 122.391
+> duration   :   0.328
+
+MSave FVT3 OK status into product
+> 000 - Add FVT3 n°0 with status OK
+> start time : 122.719
+> duration   :   1.312
+
+MSave test scripts into product
+> 000 - Upload PC file TRACES\\TESTER_1\\scripts.zip to embedded /factory/FVT3_scripts.zip
+> start time : 124.047
+> duration   :   0.469
+

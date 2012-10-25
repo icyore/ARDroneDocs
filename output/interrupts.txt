@@ -1,0 +1,27 @@
+           CPU0
+  7:          0        INTC  TWL4030-PIH
+ 11:          5        INTC  prcm
+ 12:      20106        INTC  DMA
+ 18:          0        INTC  sr1
+ 19:          0        INTC  sr2
+ 24:      82453        INTC  omap-iommu.0, OMAP3 ISP
+ 26:      31070        INTC  dsp
+ 28:          0        INTC  DspBridge	iommu fault
+ 36:          0        INTC  dsp_wdt
+ 37:      50771        INTC  gp timer
+ 56:       3744        INTC  i2c_omap
+ 57:       2012        INTC  i2c_omap
+ 61:       2026        INTC  i2c_omap
+ 72:       4019        INTC  OMAP UART0
+ 73:     263898        INTC  OMAP UART1
+ 74:          4        INTC  OMAP UART2
+ 80:        686        INTC  OMAP UART3
+ 83:          0        INTC  mmc0
+ 86:      43754        INTC  mmc1
+ 92:          0        INTC  musb_hdrc
+ 93:          0        INTC  musb_hdrc
+236:          0        GPIO  mmc0
+247:          0        GPIO  RESET
+378:          0     twl4030  twl4030_usb
+379:          0     twl4030  rtc0
+Err:          0

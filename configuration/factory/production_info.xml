@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<factory_info>
+  <product_info>
+    <name value="Mykonos2"/>
+    <pcb_number value="MZ2G337MAA"/>
+    <pi_number value="PS721000AF2G091044"/>
+    <pf_number value="Unknown"/>
+  </product_info>
+  <FVT1>
+    <counter value="1"/>
+    <passage_0>
+      <date value="2012-07-26"/>
+      <time value="21:53:53"/>
+      <status value="OK"/>
+      <failed_step value="NA"/>
+      <dll_version value="V02.16"/>
+      <script_version value="V02.10.00"/>
+      <embedded_version value="V01.06"/>
+    </passage_0>
+  </FVT1>
+  <FVT2>
+    <counter value="1"/>
+    <passage_0>
+      <date value="2012-07-26"/>
+      <time value="21:54:56"/>
+      <status value="OK"/>
+      <failed_step value="NA"/>
+      <dll_version value="V02.02"/>
+      <script_version value="V02.01.01"/>
+      <embedded_version value="V01.06"/>
+    </passage_0>
+  </FVT2>
+  <FVT3>
+    <counter value="1"/>
+    <passage_0>
+      <date value="2012-07-27"/>
+      <time value="00:57:23"/>
+      <status value="OK"/>
+      <failed_step value="NA"/>
+      <dll_version value="V02.14"/>
+      <script_version value="V03.13.02"/>
+      <embedded_version value="V01.08"/>
+    </passage_0>
+  </FVT3>
+</factory_info>

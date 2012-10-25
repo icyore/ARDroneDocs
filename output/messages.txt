@@ -1,0 +1,697 @@
+Jan  1 00:02:02 uclibc syslog.info syslogd started: BusyBox v1.14.0
+Jan  1 00:02:02 uclibc user.notice kernel: klogd started: BusyBox v1.14.0 ()
+Jan  1 00:02:02 uclibc user.notice kernel: Linux version 2.6.32.9-g0d605ac (aferran@FR-B-800-0053) (gcc version 4.5.1 (Sourcery G++ Lite 2010.09-50) ) #1 PREEMPT Fri Jun 1 16:38:28 CEST 2012
+Jan  1 00:02:02 uclibc user.warn kernel: CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
+Jan  1 00:02:02 uclibc user.warn kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Jan  1 00:02:02 uclibc user.warn kernel: Machine: mykonos2 board
+Jan  1 00:02:02 uclibc user.warn kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:02:02 uclibc user.debug kernel: On node 0 totalpages: 32768
+Jan  1 00:02:02 uclibc user.debug kernel: free_area_init_node: node 0, pgdat c04c84f8, node_mem_map c059d000
+Jan  1 00:02:02 uclibc user.debug kernel:   Normal zone: 256 pages used for memmap
+Jan  1 00:02:02 uclibc user.debug kernel:   Normal zone: 0 pages reserved
+Jan  1 00:02:02 uclibc user.debug kernel:   Normal zone: 32512 pages, LIFO batch:7
+Jan  1 00:02:02 uclibc user.info kernel: DIE ID: 461800029FFC0000015F3F9619024026 
+Jan  1 00:02:02 uclibc user.info kernel: OMAP3630 ES1.2 (l2cache iva sgx neon isp 192mhz_clk )
+Jan  1 00:02:02 uclibc user.info kernel: omap_sam_base (VA) == 0xfe400000
+Jan  1 00:02:02 uclibc user.info kernel: omap_sram_start (PA) == 0x40200000
+Jan  1 00:02:02 uclibc user.info kernel: omap_sram_size (SIZE) == 0x10000
+Jan  1 00:02:02 uclibc user.info kernel: SRAM: Mapped pa 0x40200000 to va 0xfe400000 size: 0x100000
+Jan  1 00:02:02 uclibc user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jan  1 00:02:02 uclibc user.notice kernel: Kernel command line: mtdparts=omap2-nand.0:512K(Pbootloader),8M(Pmain_boot),8M(Pfactory),32M(Psystem),81408K(Pupdate) console=ttyO3,115200 loglevel=4 ubi.mtd=Pfactory,2048 ubi.mtd=Psystem,2048 ubi.mtd=Pupdate,2048 root=ubi1:sys
+Jan  1 00:02:02 uclibc user.info kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: Memory: 128MB = 128MB total
+Jan  1 00:02:02 uclibc user.notice kernel: Memory: 117916KB available (4324K code, 1086K data, 176K init, 0K highmem)
+Jan  1 00:02:02 uclibc user.notice kernel: Virtual kernel memory layout:
+Jan  1 00:02:02 uclibc user.notice kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:02:02 uclibc user.notice kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Jan  1 00:02:02 uclibc user.notice kernel:     vmalloc : 0xc8800000 - 0xf8000000   ( 760 MB)
+Jan  1 00:02:02 uclibc user.notice kernel:     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Jan  1 00:02:02 uclibc user.notice kernel:     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Jan  1 00:02:02 uclibc user.notice kernel:       .init : 0xc0008000 - 0xc0034000   ( 176 kB)
+Jan  1 00:02:02 uclibc user.notice kernel:       .text : 0xc0034000 - 0xc046d000   (4324 kB)
+Jan  1 00:02:02 uclibc user.notice kernel:       .data : 0xc048c000 - 0xc04c8b40   ( 243 kB)
+Jan  1 00:02:02 uclibc user.info kernel: Hierarchical RCU implementation.
+Jan  1 00:02:02 uclibc user.info kernel: NR_IRQS:402
+Jan  1 00:02:02 uclibc user.info kernel: IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts
+Jan  1 00:02:02 uclibc user.info kernel: Total of 96 interrupts on 1 active controller
+Jan  1 00:02:02 uclibc user.info kernel: Clocking rate (Crystal/Core/MPU): 26.0/400/800 MHz
+Jan  1 00:02:02 uclibc user.info kernel: Reprogramming SDRC clock to 400000000 Hz
+Jan  1 00:02:02 uclibc user.info kernel: GPMC revision 5.0
+Jan  1 00:02:02 uclibc user.info kernel: OMAP GPIO hardware version 2.5
+Jan  1 00:02:02 uclibc user.info kernel: OMAP clockevent source: GPTIMER1 at 32768 Hz
+Jan  1 00:02:02 uclibc user.warn kernel: Console: colour dummy device 80x30
+Jan  1 00:02:02 uclibc user.info kernel: Calibrating delay loop... 799.29 BogoMIPS (lpj=3121152)
+Jan  1 00:02:02 uclibc user.warn kernel: Mount-cache hash table entries: 512
+Jan  1 00:02:02 uclibc user.info kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:02:02 uclibc user.info kernel: regulator: core version 0.5
+Jan  1 00:02:02 uclibc user.info kernel: NET: Registered protocol family 16
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart1_tx.uart1_tx 0x0000 -> 0x0000
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart1_rx.uart1_rx 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart2_tx.uart2_tx 0x0000 -> 0x0000
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart2_rx.uart2_rx 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart3_rx_irrx.uart3_rx_irrx 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal uart3_tx_irtx.uart3_tx_irtx 0x0000 -> 0x0000
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal gpmc_wait2.gpmc_wait2 0x0002 -> 0x0002
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal gpmc_wait3.gpmc_wait3 0x0102 -> 0x0102
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_clk.gpio171 0x0100 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_simo.gpio172 0x0100 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_somi.gpio173 0x0100 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_cs0.gpio174 0x0108 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_cs1.gpio175 0x000b -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_cs2.gpio176 0x0003 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi1_cs3.gpio177 0x0003 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi2_clk.gpio178 0x0003 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi2_simo.gpio179 0x0003 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi2_somi.gpio180 0x0003 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal mcspi2_cs0.gpio181 0x0003 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data17.gpio87 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data19.gpio89 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data8.gpio78 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data9.gpio79 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data10.gpio80 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data11.gpio81 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.info kernel: MYKONOS2 board revision : 5
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data6.gpio76 0x0000 -> 0x0104
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data15.gpio85 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data16.gpio86 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_clk.sdmmc1_clk 0x0000 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_cmd.sdmmc1_cmd 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_dat0.sdmmc1_dat0 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_dat1.sdmmc1_dat1 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_dat2.sdmmc1_dat2 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc1_dat3.sdmmc1_dat3 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_clk.sdmmc2_clk 0x0101 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_cmd.sdmmc2_cmd 0x0101 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_dat0.sdmmc2_dat0 0x0101 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_dat1.sdmmc2_dat1 0x011c -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_dat2.sdmmc2_dat2 0x0009 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal sdmmc2_dat3.sdmmc2_dat3 0x0109 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c2_scl.i2c2_scl 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c2_sda.i2c2_sda 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c3_scl.i2c3_scl 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c3_sda.i2c3_sda 0x0118 -> 0x0118
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c2_scl.i2c2_scl 0x0118 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c2_sda.i2c2_sda 0x0118 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c3_scl.i2c3_scl 0x0118 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal i2c3_sda.i2c3_sda 0x0118 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data21.gpio91 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_xclka.cam_xclka 0x0004 -> 0x0000
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d2.cam_d2 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d3.cam_d3 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d4.cam_d4 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d5.cam_d5 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d6.cam_d6 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d7.cam_d7 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d8.cam_d8 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d9.cam_d9 0x0104 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_pclk.cam_pclk 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_vs.cam_vs 0x0007 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_hs.cam_hs 0x0007 -> 0x0100
+Jan  1 00:02:02 uclibc user.warn kernel: Could not request GPIO 91
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data23.gpio93 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal dss_data22.gpio92 0x0000 -> 0x0004
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_xclkb.cam_xclkb 0x0100 -> 0x0000
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal csi2_dx0.csi2_dx0 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal csi2_dy0.csi2_dy0 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal csi2_dx1.csi2_dx1 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal csi2_dy1.csi2_dy1 0x0100 -> 0x0100
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d0.cam_d0 0x0102 -> 0x0102
+Jan  1 00:02:02 uclibc user.debug kernel: mux: Setting signal cam_d1.cam_d1 0x0102 -> 0x0102
+Jan  1 00:02:02 uclibc user.info kernel: OMAP DMA hardware revision 5.0
+Jan  1 00:02:02 uclibc user.warn kernel: bio: create slab <bio-0> at 0
+Jan  1 00:02:02 uclibc user.notice kernel: SCSI subsystem initialized
+Jan  1 00:02:02 uclibc user.debug kernel: omap2_mcspi omap2_mcspi.1: registered master spi1
+Jan  1 00:02:02 uclibc user.debug kernel: omap2_mcspi omap2_mcspi.2: registered master spi2
+Jan  1 00:02:02 uclibc user.debug kernel: omap2_mcspi omap2_mcspi.3: registered master spi3
+Jan  1 00:02:02 uclibc user.debug kernel: omap2_mcspi omap2_mcspi.4: registered master spi4
+Jan  1 00:02:02 uclibc user.info kernel: usbcore: registered new interface driver usbfs
+Jan  1 00:02:02 uclibc user.info kernel: usbcore: registered new interface driver hub
+Jan  1 00:02:02 uclibc user.info kernel: usbcore: registered new device driver usb
+Jan  1 00:02:02 uclibc user.info kernel: i2c_omap i2c_omap.1: bus 1 rev4.0 at 2600 kHz
+Jan  1 00:02:02 uclibc user.info kernel: twl4030: PIH (irq 7) chaining IRQs 368..375
+Jan  1 00:02:02 uclibc user.info kernel: twl4030: power (irq 373) chaining IRQs 376..383
+Jan  1 00:02:02 uclibc user.info kernel: regulator: VUSB1V5: 1500 mV normal standby
+Jan  1 00:02:02 uclibc user.info kernel: regulator: VUSB1V8: 1800 mV normal standby
+Jan  1 00:02:02 uclibc user.info kernel: regulator: VUSB3V1: 3100 mV normal standby
+Jan  1 00:02:02 uclibc user.debug kernel: twl4030_usb twl4030_usb: HW_CONDITIONS 0x40/64; link 1
+Jan  1 00:02:02 uclibc user.info kernel: twl4030_usb twl4030_usb: Initialized TWL4030 USB module
+Jan  1 00:02:02 uclibc user.info kernel: i2c_omap i2c_omap.2: bus 2 rev4.0 at 100 kHz
+Jan  1 00:02:02 uclibc user.info kernel: i2c_omap i2c_omap.3: bus 3 rev4.0 at 100 kHz
+Jan  1 00:02:02 uclibc user.info kernel: Sangoma WANPIPE Router v1.1 (c) 1995-2000 Sangoma Technologies Inc.
+Jan  1 00:02:02 uclibc user.info kernel: Switching to clocksource 32k_counter
+Jan  1 00:02:02 uclibc user.info kernel: musb_hdrc: version 6.0, musb-dma, otg (peripheral+host), debug=0
+Jan  1 00:02:02 uclibc user.debug kernel: twl4030_usb twl4030_usb: HW_CONDITIONS 0x40/64; link 1
+Jan  1 00:02:02 uclibc user.debug kernel: musb_hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine (X), bulk split (X), HB-ISO Rx, HB-ISO Tx, SoftConn)
+Jan  1 00:02:02 uclibc user.debug kernel: musb_hdrc: MHDRC RTL version 1.800 
+Jan  1 00:02:02 uclibc user.debug kernel: musb_hdrc: setup fifo_mode 4
+Jan  1 00:02:02 uclibc user.debug kernel: musb_hdrc: 28/31 max ep, 16384/16384 memory
+Jan  1 00:02:02 uclibc user.info kernel: musb_hdrc: USB OTG mode controller at fa0ab000 using DMA, IRQ 92
+Jan  1 00:02:02 uclibc user.info kernel: NET: Registered protocol family 2
+Jan  1 00:02:02 uclibc user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jan  1 00:02:02 uclibc user.info kernel: TCP reno registered
+Jan  1 00:02:02 uclibc user.info kernel: NET: Registered protocol family 1
+Jan  1 00:02:02 uclibc user.info kernel: RPC: Registered udp transport module.
+Jan  1 00:02:02 uclibc user.info kernel: RPC: Registered tcp transport module.
+Jan  1 00:02:02 uclibc user.info kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:02:02 uclibc user.info kernel: dspbridge_init: 600000 bytes @ 80700000
+Jan  1 00:02:02 uclibc user.info kernel: iovmm-omap initialized isp, major: 253, base-minor: 0
+Jan  1 00:02:02 uclibc user.info kernel: omap-iommu omap-iommu.0: isp registered
+Jan  1 00:02:02 uclibc user.warn kernel: NetWinder Floating Point Emulator V0.97 (double precision)
+Jan  1 00:02:02 uclibc user.info kernel: ashmem: initialized
+Jan  1 00:02:02 uclibc user.notice kernel: VFS: Disk quotas dquot_6.5.2
+Jan  1 00:02:02 uclibc user.warn kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jan  1 00:02:02 uclibc user.info kernel: msgmni has been set to 230
+Jan  1 00:02:02 uclibc user.info kernel: alg: No test for stdrng (krng)
+Jan  1 00:02:02 uclibc user.info kernel: io scheduler noop registered
+Jan  1 00:02:02 uclibc user.info kernel: io scheduler anticipatory registered (default)
+Jan  1 00:02:02 uclibc user.info kernel: io scheduler deadline registered
+Jan  1 00:02:02 uclibc user.info kernel: io scheduler cfq registered
+Jan  1 00:02:02 uclibc user.info kernel: omap-hsuart.0: ttyO0 at MMIO 0x4806a000 (irq = 72) is a OMAP UART0
+Jan  1 00:02:02 uclibc user.info kernel: omap-hsuart.1: ttyO1 at MMIO 0x4806c000 (irq = 73) is a OMAP UART1
+Jan  1 00:02:02 uclibc user.info kernel: omap-hsuart.2: ttyO2 at MMIO 0x49020000 (irq = 74) is a OMAP UART2
+Jan  1 00:02:02 uclibc user.info kernel: omap-hsuart.3: ttyO3 at MMIO 0x49042000 (irq = 80) is a OMAP UART3
+Jan  1 00:02:02 uclibc user.info kernel: console [ttyO3] enabled
+Jan  1 00:02:02 uclibc user.info kernel: brd: module loaded
+Jan  1 00:02:02 uclibc user.info kernel: loop: module loaded
+Jan  1 00:02:02 uclibc user.info kernel: omap2-nand driver initializing
+Jan  1 00:02:02 uclibc user.err kernel: omap2-nand: irqstatus set on cmd entry ff
+Jan  1 00:02:02 uclibc user.info kernel: NAND device: Manufacturer ID: 0x2c, Chip ID: 0xa1 (Micron NAND 128MiB 1,8V 8-bit)
+Jan  1 00:02:02 uclibc user.notice kernel: 5 cmdlinepart partitions found on MTD device omap2-nand.0
+Jan  1 00:02:02 uclibc user.notice kernel: Creating 5 MTD partitions on "omap2-nand.0":
+Jan  1 00:02:02 uclibc user.notice kernel: 0x000000000000-0x000000080000 : "Pbootloader"
+Jan  1 00:02:02 uclibc user.notice kernel: 0x000000080000-0x000000880000 : "Pmain_boot"
+Jan  1 00:02:02 uclibc user.notice kernel: 0x000000880000-0x000001080000 : "Pfactory"
+Jan  1 00:02:02 uclibc user.notice kernel: 0x000001080000-0x000003080000 : "Psystem"
+Jan  1 00:02:02 uclibc user.notice kernel: 0x000003080000-0x000008000000 : "Pupdate"
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attaching mtd2 to ubi0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: physical eraseblock size:   131072 bytes (128 KiB)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: logical eraseblock size:    126976 bytes
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: smallest flash I/O unit:    2048
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: VID header offset:          2048 (aligned 2048)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: data offset:                4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. sequence number:       106
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attached mtd2 to ubi0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device name:            "Pfactory"
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device size:            8 MiB
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of good PEBs:        64
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of bad PEBs:         0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of corrupted PEBs:   0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. allowed volumes:       128
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: wear-leveling threshold:    4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of internal volumes: 1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of user volumes:     1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: available PEBs:             0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: total number of reserved PEBs: 64
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of PEBs reserved for bad PEB handling: 2
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max/mean erase counter: 4/3
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: image sequence number:  1695544992
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attaching mtd3 to ubi1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: physical eraseblock size:   131072 bytes (128 KiB)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: logical eraseblock size:    126976 bytes
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: smallest flash I/O unit:    2048
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: VID header offset:          2048 (aligned 2048)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: data offset:                4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: background thread "ubi_bgt0d" started, PID 439
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 3330,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 2899,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 3600,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 218,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 2945,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 3682,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 1735,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 1997,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 107,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 3190,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 18,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 3242,
+Jan  1 00:02:02 uclibc user.info kernel: ecc correction in bits 682,
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. sequence number:       812
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attached mtd3 to ubi1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device name:            "Psystem"
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device size:            32 MiB
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of good PEBs:        256
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of bad PEBs:         0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of corrupted PEBs:   0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. allowed volumes:       128
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: wear-leveling threshold:    4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of internal volumes: 1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of user volumes:     1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: available PEBs:             0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: total number of reserved PEBs: 256
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of PEBs reserved for bad PEB handling: 2
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max/mean erase counter: 9/6
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: image sequence number:  1853481494
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attaching mtd4 to ubi2
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: physical eraseblock size:   131072 bytes (128 KiB)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: logical eraseblock size:    126976 bytes
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: smallest flash I/O unit:    2048
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: VID header offset:          2048 (aligned 2048)
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: data offset:                4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: background thread "ubi_bgt1d" started, PID 442
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. sequence number:       1078
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: attached mtd4 to ubi2
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device name:            "Pupdate"
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: MTD device size:            79 MiB
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of good PEBs:        636
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of bad PEBs:         0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of corrupted PEBs:   0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max. allowed volumes:       128
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: wear-leveling threshold:    4096
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of internal volumes: 1
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of user volumes:     2
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: available PEBs:             0
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: total number of reserved PEBs: 636
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: number of PEBs reserved for bad PEB handling: 6
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: max/mean erase counter: 11/4
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: image sequence number:  1522855842
+Jan  1 00:02:02 uclibc user.notice kernel: UBI: background thread "ubi_bgt2d" started, PID 446
+Jan  1 00:02:02 uclibc user.info kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:02:02 uclibc user.debug kernel: ehci_hcd: block sizes: qh 60 qtd 96 itd 160 sitd 96
+Jan  1 00:02:02 uclibc user.info kernel: Initializing USB Mass Storage driver...
+Jan  1 00:02:02 uclibc user.info kernel: usbcore: registered new interface driver usb-storage
+Jan  1 00:02:02 uclibc user.info kernel: USB Mass Storage support registered.
+Jan  1 00:02:02 uclibc user.info kernel: g_serial gadget: Gadget Serial v2.4
+Jan  1 00:02:02 uclibc user.info kernel: g_serial gadget: g_serial ready
+Jan  1 00:02:02 uclibc user.info kernel: musb_hdrc musb_hdrc: MUSB HDRC host driver
+Jan  1 00:02:02 uclibc user.debug kernel: /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/usb/core/inode.c: creating file 'devices'
+Jan  1 00:02:02 uclibc user.debug kernel: /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/usb/core/inode.c: creating file '001'
+Jan  1 00:02:02 uclibc user.info kernel: musb_hdrc musb_hdrc: new USB bus registered, assigned bus number 1
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: default language 0x0409
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: udev 1, busnum 1, minor = 0
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: Product: MUSB HDRC host driver
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: Manufacturer: Linux 2.6.32.9-g0d605ac musb-hcd
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: SerialNumber: musb_hdrc
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: uevent
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: usb_probe_device
+Jan  1 00:02:02 uclibc user.info kernel: usb usb1: configuration #1 chosen from 1 choice
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+Jan  1 00:02:02 uclibc user.debug kernel: usb 1-0:1.0: uevent
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: usb_probe_interface
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: usb_probe_interface - got id
+Jan  1 00:02:02 uclibc user.info kernel: hub 1-0:1.0: USB hub found
+Jan  1 00:02:02 uclibc user.info kernel: hub 1-0:1.0: 1 port detected
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: standalone hub
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: individual port power switching
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: no over-current protection
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: power on to power good time: 10ms
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: local power source is good
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: enabling power on all ports
+Jan  1 00:02:02 uclibc user.debug kernel: /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/usb/core/inode.c: creating file '001'
+Jan  1 00:02:02 uclibc user.info kernel: mice: PS/2 mouse device common for all mice
+Jan  1 00:02:02 uclibc user.info kernel: input: gpio-keys as /devices/platform/gpio-keys.0/input/input0
+Jan  1 00:02:02 uclibc user.info kernel: using rtc device, twl_rtc, for alarms
+Jan  1 00:02:02 uclibc user.info kernel: twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0
+Jan  1 00:02:02 uclibc user.info kernel: i2c /dev entries driver
+Jan  1 00:02:02 uclibc user.info kernel: Linux media interface: v0.10
+Jan  1 00:02:02 uclibc user.info kernel: Linux video capture interface: v2.00
+Jan  1 00:02:02 uclibc user.info kernel: cpuidle: using governor ladder
+Jan  1 00:02:02 uclibc user.info kernel: usbcore: registered new interface driver usbhid
+Jan  1 00:02:02 uclibc user.info kernel: usbhid: v2.6:USB HID core driver
+Jan  1 00:02:02 uclibc user.info kernel: logger: created 64K log 'log_main'
+Jan  1 00:02:02 uclibc user.info kernel: logger: created 256K log 'log_events'
+Jan  1 00:02:02 uclibc user.info kernel: logger: created 64K log 'log_radio'
+Jan  1 00:02:02 uclibc user.info kernel: logger: created 64K log 'log_system'
+Jan  1 00:02:02 uclibc user.warn kernel: Netfilter messages via NETLINK v0.30.
+Jan  1 00:02:02 uclibc user.warn kernel: nf_conntrack version 0.5.0 (1844 buckets, 7376 max)
+Jan  1 00:02:02 uclibc user.warn kernel: CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+Jan  1 00:02:02 uclibc user.warn kernel: nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+Jan  1 00:02:02 uclibc user.warn kernel: sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+Jan  1 00:02:02 uclibc user.warn kernel: ctnetlink v0.93: registering with nfnetlink.
+Jan  1 00:02:02 uclibc user.info kernel: xt_time: kernel timezone is -0000
+Jan  1 00:02:02 uclibc user.info kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Jan  1 00:02:02 uclibc user.info kernel: arp_tables: (C) 2002 David S. Miller
+Jan  1 00:02:02 uclibc user.info kernel: TCP cubic registered
+Jan  1 00:02:02 uclibc user.info kernel: NET: Registered protocol family 17
+Jan  1 00:02:02 uclibc user.err kernel: Power Management for TI OMAP3.
+Jan  1 00:02:02 uclibc user.info kernel: <6>SR: Nvalues not fused for1.2G, disabled
+Jan  1 00:02:02 uclibc user.info kernel: SR1:Fused Nvalues for VDD1OPP4 aaa194
+Jan  1 00:02:02 uclibc user.info kernel: SR2:Fused Nvalues for VDD2OPP3 11191470
+Jan  1 00:02:02 uclibc user.info kernel: SR2:Fused Nvalues for VDD2OPP2 10127085
+Jan  1 00:02:02 uclibc user.info kernel: SR2:Fused Nvalues for VDD2OPP1 10080697
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[1]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[2]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[3]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[4]=62500
+Jan  1 00:02:02 uclibc user.info kernel: steps added, volt will berecaliberated automatically
+Jan  1 00:02:02 uclibc user.info kernel: SR2:Fused Nvalues for VDD2OPP1 10073505
+Jan  1 00:02:02 uclibc user.info kernel: SmartReflex driver initialized
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "wdt3_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "wdt3_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "gpio2_dbck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "gpio3_dbck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "gpio4_dbck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "gpio5_dbck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "gpio6_dbck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "wdt2_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "wdt2_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "ssi_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mailboxes_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "hdq_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mspro_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "des2_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "sha12_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "aes2_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "icr_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "ssi_ssr_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "hdq_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mcbsp_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "mspro_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "sad2d_ick"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "modem_fck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "dpll4_m6x2_ck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "dpll4_m5x2_ck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "dpll4_m4x2_ck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "dpll4_m3x2_ck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "dpll3_m3x2_ck"
+Jan  1 00:02:02 uclibc user.debug kernel: Disabling unused clock "sys_clkout1"
+Jan  1 00:02:02 uclibc user.info kernel: VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Jan  1 00:02:02 uclibc user.info kernel: twl_rtc twl_rtc: setting system clock to 2000-01-01 00:01:58 UTC (946684918)
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0000
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted UBI device 1, volume 0, name "system"
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted read-only
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: file system size:   30601216 bytes (29884 KiB, 29 MiB, 241 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: journal size:       1523712 bytes (1488 KiB, 1 MiB, 12 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: media format:       w4/r0 (latest is w4/r0)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: default compressor: none
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: reserved for root:  1445370 bytes (1411 KiB)
+Jan  1 00:02:02 uclibc user.warn kernel: VFS: Mounted root (ubifs filesystem) readonly on device 0:13.
+Jan  1 00:02:02 uclibc user.info kernel: Freeing init memory: 176K
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: recovery needed
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: recovery deferred
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted UBI device 0, volume 0, name "factory"
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted read-only
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: file system size:   6221824 bytes (6076 KiB, 5 MiB, 49 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: media format:       w4/r0 (latest is w4/r0)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: default compressor: none
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: reserved for root:  293871 bytes (286 KiB)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted UBI device 2, volume 0, name "update"
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: file system size:   15745024 bytes (15376 KiB, 15 MiB, 124 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: media format:       w4/r0 (latest is w4/r0)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: default compressor: none
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: reserved for root:  743676 bytes (726 KiB)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: mounted UBI device 2, volume 1, name "data"
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: file system size:   61456384 bytes (60016 KiB, 58 MiB, 484 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: journal size:       3047424 bytes (2976 KiB, 2 MiB, 24 LEBs)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: media format:       w4/r0 (latest is w4/r0)
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: default compressor: none
+Jan  1 00:02:02 uclibc user.notice kernel: UBIFS: reserved for root:  2902736 bytes (2834 KiB)
+Jan  1 00:02:02 uclibc user.info kernel: proc_load: Processor Loaded /system/lib/dsp/baseimage.dof
+Jan  1 00:02:02 uclibc user.info kernel: omap mailbox rev 4.0
+Jan  1 00:02:02 uclibc user.info kernel: proc_start: dsp in running state
+Jan  1 00:02:02 uclibc user.err kernel: procwrap_detach: deprecated dspbridge ioctl
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[1]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[2]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[3]=37500
+Jan  1 00:02:02 uclibc user.info kernel: sr1_opp_margin[4]=25000
+Jan  1 00:02:02 uclibc user.info kernel: steps added, volt will berecaliberated automatically
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x01 length 3
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x1a length 5
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x1b length 8
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x14 length 0
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x80 length 1
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x81 length 1
+Jan  1 00:02:02 uclibc user.debug kernel: mmc1: queuing CIS tuple 0x82 length 1
+Jan  1 00:02:02 uclibc user.info kernel: mmc1: new high speed SDIO card at address 0001
+Jan  1 00:02:02 uclibc user.info kernel: udev[578]: starting version 164
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: uevent
+Jan  1 00:02:02 uclibc user.debug kernel: usb 1-0:1.0: uevent
+Jan  1 00:02:02 uclibc user.alert kernel: AR6000: configuration opcode 7 is only used for RTOS systems, not Linux systems
+Jan  1 00:02:02 uclibc user.info kernel: omap3isp omap3isp: Revision 15.0 found
+Jan  1 00:02:02 uclibc user.info kernel: omap-iommu omap-iommu.0: isp: version 1.1
+Jan  1 00:02:02 uclibc user.alert kernel: AR6K: ** HIF layer does not support scatter requests (17) 
+Jan  1 00:02:02 uclibc user.alert kernel: wmi_control_rx() : Unknown id 0x101e
+Jan  1 00:02:02 uclibc user.debug kernel: hub 1-0:1.0: hub_suspend
+Jan  1 00:02:02 uclibc user.debug kernel: usb usb1: bus auto-suspend
+Jan  1 00:02:02 uclibc user.info kernel: soc1040 3-005d: Setting image size to 1280x720
+Jan  1 00:02:02 uclibc user.warn kernel: gated mipi clock
+Jan  1 00:02:02 uclibc user.info kernel: SysRq : Changing Loglevel
+Jan  1 00:02:02 uclibc user.warn kernel: Loglevel set to 0
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-171
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a0 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-172
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a1 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-173
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a2 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-174
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a3 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-175
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a4 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-176
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6c98>] (gpio_direction_input+0x70/0x138)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6c98>] (gpio_direction_input+0x70/0x138) from [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a5 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-78
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6c98>] (gpio_direction_input+0x70/0x138)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6c98>] (gpio_direction_input+0x70/0x138) from [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a6 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-79
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6c98>] (gpio_direction_input+0x70/0x138)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6c98>] (gpio_direction_input+0x70/0x138) from [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a7 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-80
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6c98>] (gpio_direction_input+0x70/0x138)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6c98>] (gpio_direction_input+0x70/0x138) from [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a8 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-81
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6c98>] (gpio_direction_input+0x70/0x138)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6c98>] (gpio_direction_input+0x70/0x138) from [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a89f4>] (gpio_ioctl+0xb8/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82a9 ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-178
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82aa ]---
+Jan  1 00:02:02 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:02 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:02 uclibc user.warn kernel: autorequest GPIO-179
+Jan  1 00:02:02 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:02 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:02 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:02 uclibc user.warn kernel: ---[ end trace f65c6f4328be82ab ]---
+Jan  1 00:02:03 uclibc user.info kernel: Enabling CTS wakeup for UART3
+Jan  1 00:02:03 uclibc user.info kernel: Enabling CTS wakeup for UART2
+Jan  1 00:02:03 uclibc user.info kernel: Enabling CTS wakeup for UART2
+Jan  1 00:02:03 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:03 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/serial/omap-serial.c:247 serial_omap_irq+0x508/0x6b0()
+Jan  1 00:02:03 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:03 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c01e6c9c>] (serial_omap_irq+0x508/0x6b0)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c01e6c9c>] (serial_omap_irq+0x508/0x6b0) from [<c0094270>] (handle_IRQ_event+0x34/0xf0)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c0094270>] (handle_IRQ_event+0x34/0xf0) from [<c0095b7c>] (handle_level_irq+0xc0/0x150)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c0095b7c>] (handle_level_irq+0xc0/0x150) from [<c0034068>] (asm_do_IRQ+0x68/0x84)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c0034068>] (asm_do_IRQ+0x68/0x84) from [<c0034a84>] (__irq_svc+0x44/0xa8)
+Jan  1 00:02:03 uclibc user.warn kernel: Exception stack(0xc6c0fb18 to 0xc6c0fb60)
+Jan  1 00:02:03 uclibc user.warn kernel: fb00:                                                       fe000084 c7fa4f10
+Jan  1 00:02:03 uclibc user.warn kernel: fb20: 000000b0 000124e0 00015f9f 009f3030 00000010 c7fa47d0 00000000 00000800
+Jan  1 00:02:03 uclibc user.warn kernel: fb40: c78fa000 c7fa47d0 0000009f c6c0fb60 000000e5 c01b1314 20000113 ffffffff
+Jan  1 00:02:03 uclibc user.warn kernel: [<c0034a84>] (__irq_svc+0x44/0xa8) from [<c01b1314>] (__raw_readsb+0x7c/0x150)
+Jan  1 00:02:03 uclibc user.warn kernel: ---[ end trace f65c6f4328be82ac ]---
+Jan  1 00:02:03 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:03 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/drivers/gpio/gpiolib.c:101 gpio_ensure_requested+0x48/0x114()
+Jan  1 00:02:03 uclibc user.warn kernel: autorequest GPIO-63
+Jan  1 00:02:03 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:03 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c006a560>] (warn_slowpath_fmt+0x24/0x30)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c006a560>] (warn_slowpath_fmt+0x24/0x30) from [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c01c6a1c>] (gpio_ensure_requested+0x48/0x114) from [<c01c6b5c>] (gpio_direction_output+0x74/0x140)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c01c6b5c>] (gpio_direction_output+0x74/0x140) from [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c02a8a0c>] (gpio_ioctl+0xd0/0x3a0) from [<c00ce068>] (vfs_ioctl+0x70/0x8c)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c00ce068>] (vfs_ioctl+0x70/0x8c) from [<c00cea84>] (do_vfs_ioctl+0x550/0x598)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c00cea84>] (do_vfs_ioctl+0x550/0x598) from [<c00ceb00>] (sys_ioctl+0x34/0x54)
+Jan  1 00:02:03 uclibc user.warn kernel: [<c00ceb00>] (sys_ioctl+0x34/0x54) from [<c0034f00>] (ret_fast_syscall+0x0/0x2c)
+Jan  1 00:02:03 uclibc user.warn kernel: ---[ end trace f65c6f4328be82ad ]---
+Jan  1 00:02:06 uclibc user.info kernel: Enabling CTS wakeup for UART1
+Jan  1 00:02:06 uclibc user.alert kernel: channel hint set to 0
+Jan  1 00:02:06 uclibc user.alert kernel: Add Filter 0 = 01:00:5e:00:00:01
+Jan  1 00:02:06 uclibc user.alert kernel: Keep Filter 0 = 01:00:5e:00:00:01
+Jan  1 00:02:11 uclibc user.info kernel: ov7670 2-0021: Enabling Streaming
+Jan  1 00:02:11 uclibc user.info kernel: Enabling CTS wakeup for UART2
+Jan  1 00:02:11 uclibc user.info kernel: DSPTrace:H264Enc Create
+Jan  1 00:02:11 uclibc user.info kernel: DSPTrace:H264Enc Create Done
+Jan  1 00:02:11 uclibc user.warn kernel: ------------[ cut here ]------------
+Jan  1 00:02:11 uclibc user.warn kernel: WARNING: at /home/aferran/.ardrone/linux/ardrone2_ARDrone2_Version_20120127_2/Linux/kernel/omap/kernel/mutex.c:207 __mutex_lock_slowpath+0x70/0x294()
+Jan  1 00:02:11 uclibc user.warn kernel: Modules linked in: ov7670 soc1040 omap3_isp ar6000
+Jan  1 00:02:11 uclibc user.warn kernel: [<c003a638>] (unwind_backtrace+0x0/0xcc) from [<c006a510>] (warn_slowpath_common+0x48/0x60)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c006a510>] (warn_slowpath_common+0x48/0x60) from [<c035cfdc>] (__mutex_lock_slowpath+0x70/0x294)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c035cfdc>] (__mutex_lock_slowpath+0x70/0x294) from [<c035d20c>] (mutex_lock+0xc/0x20)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c035d20c>] (mutex_lock+0xc/0x20) from [<c01d2b5c>] (tty_throttle+0x14/0x58)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c01d2b5c>] (tty_throttle+0x14/0x58) from [<c01d1ef0>] (n_tty_receive_buf+0xe8c/0xec0)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c01d1ef0>] (n_tty_receive_buf+0xe8c/0xec0) from [<c01d4650>] (flush_to_ldisc+0x10c/0x1c0)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c01d4650>] (flush_to_ldisc+0x10c/0x1c0) from [<c01e6cd0>] (serial_omap_irq+0x53c/0x6b0)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c01e6cd0>] (serial_omap_irq+0x53c/0x6b0) from [<c0094270>] (handle_IRQ_event+0x34/0xf0)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0094270>] (handle_IRQ_event+0x34/0xf0) from [<c0095b7c>] (handle_level_irq+0xc0/0x150)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0095b7c>] (handle_level_irq+0xc0/0x150) from [<c0034068>] (asm_do_IRQ+0x68/0x84)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0034068>] (asm_do_IRQ+0x68/0x84) from [<c0034a84>] (__irq_svc+0x44/0xa8)
+Jan  1 00:02:11 uclibc user.warn kernel: Exception stack(0xc048df40 to 0xc048df88)
+Jan  1 00:02:11 uclibc user.warn kernel: df40: 003946bd 00000000 003946bd 00000000 c04c9fd4 c04c9f9c 00000003 00000003
+Jan  1 00:02:11 uclibc user.warn kernel: df60: c051ffc0 413fc082 00000000 00000000 00000000 c048df88 c0049718 c0049724
+Jan  1 00:02:11 uclibc user.warn kernel: df80: 60000053 ffffffff
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0034a84>] (__irq_svc+0x44/0xa8) from [<c0049724>] (omap3_enter_idle+0x11c/0x150)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0049724>] (omap3_enter_idle+0x11c/0x150) from [<c0289848>] (cpuidle_idle_call+0xac/0x104)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c0289848>] (cpuidle_idle_call+0xac/0x104) from [<c00361c0>] (cpu_idle+0x34/0x8c)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c00361c0>] (cpu_idle+0x34/0x8c) from [<c000887c>] (start_kernel+0x244/0x298)
+Jan  1 00:02:11 uclibc user.warn kernel: [<c000887c>] (start_kernel+0x244/0x298) from [<80008034>] (0x80008034)
+Jan  1 00:02:11 uclibc user.warn kernel: ---[ end trace f65c6f4328be82ae ]---
+Jan  1 00:02:12 uclibc user.info kernel: Enabling CTS wakeup for UART2
+Jan  1 00:13:50 uclibc user.info kernel: Enabling CTS wakeup for UART2
+Jan  1 00:13:50 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:13:50 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:16:01 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:16:01 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:35:50 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:35:50 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:41:48 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:41:48 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:56:07 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 00:56:07 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:02:56 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:02:56 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:04:14 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:04:14 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:15:10 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:15:10 uclibc user.warn kernel: Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+Jan  1 01:24:24 uclibc user.info kernel: Enabling CTS wakeup for UART2

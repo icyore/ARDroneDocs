@@ -1,0 +1,12 @@
+name	count	expire_count	wake_count	active_since	total_time	sleep_time	max_time	last_change
+"event0-778"	0	0	0	0	0	0	0	0
+"ar6k_wow"	0	0	0	0	0	0	0	0
+"ar6k_suspend"	0	0	0	0	0	0	0	0
+"alarm"	0	0	0	0	0	0	0	0
+"alarm_rtc"	0	0	0	0	0	0	0	0
+"musb_wake_lock"	0	0	0	0	0	0	0	0
+"unknown_wakeups"	0	0	0	0	0	0	0	0
+"deleted_wake_locks"	0	0	0	0	0	0	0	0
+"mmc_delayed_work"	806	0	0	5493165	95573150893	0	1210937500	187046051027
+"main"	1	0	0	186879669190	186879669190	0	186879669190	171875002
+"omap-serial"	2	1	0	172949432373	173985015870	0	172949432373	14102111819

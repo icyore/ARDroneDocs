@@ -1,0 +1,6 @@
+dev:    size   erasesize  name
+mtd0: 00080000 00020000 "Pbootloader"
+mtd1: 00800000 00020000 "Pmain_boot"
+mtd2: 00800000 00020000 "Pfactory"
+mtd3: 02000000 00020000 "Psystem"
+mtd4: 04f80000 00020000 "Pupdate"

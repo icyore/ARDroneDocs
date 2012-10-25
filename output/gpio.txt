@@ -1,0 +1,578 @@
+
+Value read on GPIO 0 : 0
+
+
+Value read on GPIO 1 : 0
+
+
+Value read on GPIO 2 : 0
+
+
+Value read on GPIO 3 : 0
+
+
+Value read on GPIO 4 : 0
+
+
+Value read on GPIO 5 : 0
+
+
+Value read on GPIO 6 : 0
+
+
+Value read on GPIO 7 : 0
+
+
+Value read on GPIO 8 : 0
+
+
+Value read on GPIO 9 : 0
+
+
+Value read on GPIO 10 : 0
+
+
+Value read on GPIO 11 : 0
+
+
+Value read on GPIO 12 : 0
+
+
+Value read on GPIO 13 : 0
+
+
+Value read on GPIO 14 : 0
+
+
+Value read on GPIO 15 : 0
+
+
+Value read on GPIO 16 : 0
+
+
+Value read on GPIO 17 : 0
+
+
+Value read on GPIO 18 : 0
+
+
+Value read on GPIO 19 : 0
+
+
+Value read on GPIO 20 : 0
+
+
+Value read on GPIO 21 : 0
+
+
+Value read on GPIO 22 : 0
+
+
+Value read on GPIO 23 : 0
+
+
+Value read on GPIO 24 : 0
+
+
+Value read on GPIO 25 : 0
+
+
+Value read on GPIO 26 : 0
+
+
+Value read on GPIO 27 : 0
+
+
+Value read on GPIO 28 : 0
+
+
+Value read on GPIO 29 : 0
+
+
+Value read on GPIO 30 : 0
+
+
+Value read on GPIO 31 : 0
+
+
+Value read on GPIO 32 : 0
+
+
+Value read on GPIO 33 : 0
+
+
+Value read on GPIO 34 : 0
+
+
+Value read on GPIO 35 : 0
+
+
+Value read on GPIO 36 : 0
+
+
+Value read on GPIO 37 : 0
+
+
+Value read on GPIO 38 : 0
+
+
+Value read on GPIO 39 : 0
+
+
+Value read on GPIO 40 : 0
+
+
+Value read on GPIO 41 : 0
+
+
+Value read on GPIO 42 : 0
+
+
+Value read on GPIO 43 : 0
+
+
+Value read on GPIO 44 : 0
+
+
+Value read on GPIO 45 : 0
+
+
+Value read on GPIO 46 : 0
+
+
+Value read on GPIO 47 : 0
+
+
+Value read on GPIO 48 : 0
+
+
+Value read on GPIO 49 : 0
+
+
+Value read on GPIO 50 : 0
+
+
+Value read on GPIO 51 : 0
+
+
+Value read on GPIO 52 : 0
+
+
+Value read on GPIO 53 : 0
+
+
+Value read on GPIO 54 : 1
+
+
+Value read on GPIO 55 : 0
+
+
+Value read on GPIO 56 : 0
+
+
+Value read on GPIO 57 : 0
+
+
+Value read on GPIO 58 : 0
+
+
+Value read on GPIO 59 : 0
+
+
+Value read on GPIO 60 : 0
+
+
+Value read on GPIO 61 : 0
+
+
+Value read on GPIO 62 : 0
+
+
+Value read on GPIO 63 : 0
+
+
+Value read on GPIO 64 : 0
+
+
+Value read on GPIO 65 : 0
+
+
+Value read on GPIO 66 : 0
+
+
+Value read on GPIO 67 : 0
+
+
+Value read on GPIO 68 : 0
+
+
+Value read on GPIO 69 : 0
+
+
+Value read on GPIO 70 : 0
+
+
+Value read on GPIO 71 : 0
+
+
+Value read on GPIO 72 : 0
+
+
+Value read on GPIO 73 : 0
+
+
+Value read on GPIO 74 : 0
+
+
+Value read on GPIO 75 : 0
+
+
+Value read on GPIO 76 : 1
+
+
+Value read on GPIO 77 : 0
+
+
+Value read on GPIO 78 : 1
+
+
+Value read on GPIO 79 : 0
+
+
+Value read on GPIO 80 : 1
+
+
+Value read on GPIO 81 : 0
+
+
+Value read on GPIO 82 : 0
+
+
+Value read on GPIO 83 : 0
+
+
+Value read on GPIO 84 : 0
+
+
+Value read on GPIO 85 : 1
+
+
+Value read on GPIO 86 : 1
+
+
+Value read on GPIO 87 : 0
+
+
+Value read on GPIO 88 : 0
+
+
+Value read on GPIO 89 : 0
+
+
+Value read on GPIO 90 : 0
+
+
+Value read on GPIO 91 : 1
+
+
+Value read on GPIO 92 : 1
+
+
+Value read on GPIO 93 : 0
+
+
+Value read on GPIO 94 : 0
+
+
+Value read on GPIO 95 : 0
+
+
+Value read on GPIO 96 : 0
+
+
+Value read on GPIO 97 : 0
+
+
+Value read on GPIO 98 : 1
+
+
+Value read on GPIO 99 : 0
+
+
+Value read on GPIO 100 : 0
+
+
+Value read on GPIO 101 : 0
+
+
+Value read on GPIO 102 : 0
+
+
+Value read on GPIO 103 : 0
+
+
+Value read on GPIO 104 : 0
+
+
+Value read on GPIO 105 : 0
+
+
+Value read on GPIO 106 : 0
+
+
+Value read on GPIO 107 : 0
+
+
+Value read on GPIO 108 : 0
+
+
+Value read on GPIO 109 : 1
+
+
+Value read on GPIO 110 : 0
+
+
+Value read on GPIO 111 : 0
+
+
+Value read on GPIO 112 : 0
+
+
+Value read on GPIO 113 : 0
+
+
+Value read on GPIO 114 : 0
+
+
+Value read on GPIO 115 : 0
+
+
+Value read on GPIO 116 : 0
+
+
+Value read on GPIO 117 : 0
+
+
+Value read on GPIO 118 : 0
+
+
+Value read on GPIO 119 : 0
+
+
+Value read on GPIO 120 : 0
+
+
+Value read on GPIO 121 : 0
+
+
+Value read on GPIO 122 : 0
+
+
+Value read on GPIO 123 : 0
+
+
+Value read on GPIO 124 : 0
+
+
+Value read on GPIO 125 : 0
+
+
+Value read on GPIO 126 : 1
+
+
+Value read on GPIO 127 : 0
+
+
+Value read on GPIO 128 : 0
+
+
+Value read on GPIO 129 : 0
+
+
+Value read on GPIO 130 : 0
+
+
+Value read on GPIO 131 : 0
+
+
+Value read on GPIO 132 : 0
+
+
+Value read on GPIO 133 : 0
+
+
+Value read on GPIO 134 : 0
+
+
+Value read on GPIO 135 : 0
+
+
+Value read on GPIO 136 : 0
+
+
+Value read on GPIO 137 : 0
+
+
+Value read on GPIO 138 : 0
+
+
+Value read on GPIO 139 : 0
+
+
+Value read on GPIO 140 : 0
+
+
+Value read on GPIO 141 : 0
+
+
+Value read on GPIO 142 : 0
+
+
+Value read on GPIO 143 : 0
+
+
+Value read on GPIO 144 : 0
+
+
+Value read on GPIO 145 : 0
+
+
+Value read on GPIO 146 : 0
+
+
+Value read on GPIO 147 : 0
+
+
+Value read on GPIO 148 : 0
+
+
+Value read on GPIO 149 : 0
+
+
+Value read on GPIO 150 : 0
+
+
+Value read on GPIO 151 : 0
+
+
+Value read on GPIO 152 : 1
+
+
+Value read on GPIO 153 : 1
+
+
+Value read on GPIO 154 : 1
+
+
+Value read on GPIO 155 : 0
+
+
+Value read on GPIO 156 : 0
+
+
+Value read on GPIO 157 : 1
+
+
+Value read on GPIO 158 : 1
+
+
+Value read on GPIO 159 : 1
+
+
+Value read on GPIO 160 : 1
+
+
+Value read on GPIO 161 : 1
+
+
+Value read on GPIO 162 : 1
+
+
+Value read on GPIO 163 : 0
+
+
+Value read on GPIO 164 : 0
+
+
+Value read on GPIO 165 : 0
+
+
+Value read on GPIO 166 : 0
+
+
+Value read on GPIO 167 : 0
+
+
+Value read on GPIO 168 : 0
+
+
+Value read on GPIO 169 : 0
+
+
+Value read on GPIO 170 : 0
+
+
+Value read on GPIO 171 : 0
+
+
+Value read on GPIO 172 : 0
+
+
+Value read on GPIO 173 : 0
+
+
+Value read on GPIO 174 : 0
+
+
+Value read on GPIO 175 : 1
+
+
+Value read on GPIO 176 : 0
+
+
+Value read on GPIO 177 : 1
+
+
+Value read on GPIO 178 : 0
+
+
+Value read on GPIO 179 : 0
+
+
+Value read on GPIO 180 : 1
+
+
+Value read on GPIO 181 : 0
+
+
+Value read on GPIO 182 : 0
+
+
+Value read on GPIO 183 : 0
+
+
+Value read on GPIO 184 : 0
+
+
+Value read on GPIO 185 : 0
+
+
+Value read on GPIO 186 : 0
+
+
+Value read on GPIO 187 : 0
+
+
+Value read on GPIO 188 : 0
+
+
+Value read on GPIO 189 : 0
+
+
+Value read on GPIO 190 : 0
+
+
+Value read on GPIO 191 : 0
+
+
+// NOTE if you read GPIO >= 192, the device reboots

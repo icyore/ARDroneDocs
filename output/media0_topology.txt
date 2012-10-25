@@ -1,0 +1,131 @@
+Opening media device /dev/media0
+Enumerating entities
+Found 17 entities
+Enumerating pads and links
+Device topology
+- entity 1: OMAP3 ISP CCP2 (2 pads, 2 links)
+            type V4L2 subdev subtype Unknown
+            device node name /dev/v4l-subdev0
+	pad0: Input [SGRBG10 4096x4096]
+		<- 'OMAP3 ISP CCP2 input':pad0 []
+	pad1: Output [SGRBG10 4096x4096]
+		-> 'OMAP3 ISP CCDC':pad0 []
+
+- entity 2: OMAP3 ISP CCP2 input (1 pad, 1 link)
+            type Node subtype V4L
+            device node name /dev/video0
+	pad0: Output 
+		-> 'OMAP3 ISP CCP2':pad0 []
+
+- entity 3: OMAP3 ISP CSI2a (2 pads, 3 links)
+            type V4L2 subdev subtype Unknown
+            device node name /dev/v4l-subdev1
+	pad0: Input [UYVY2X8 1280x720]
+		<- 'soc1040 3-005d':pad0 [IMMUTABLE,ACTIVE]
+	pad1: Output [UYVY2X8 1280x720]
+		-> 'OMAP3 ISP CSI2a output':pad0 [ACTIVE]
+		-> 'OMAP3 ISP CCDC':pad0 []
+
+- entity 4: OMAP3 ISP CSI2a output (1 pad, 1 link)
+            type Node subtype V4L
+            device node name /dev/video1
+	pad0: Input 
+		<- 'OMAP3 ISP CSI2a':pad1 [ACTIVE]
+
+- entity 5: OMAP3 ISP CCDC (3 pads, 9 links)
+            type V4L2 subdev subtype Unknown
+            device node name /dev/v4l-subdev2
+	pad0: Input [UYVY2X8 320x240]
+		<- 'OMAP3 ISP CCP2':pad1 []
+		<- 'OMAP3 ISP CSI2a':pad1 []
+		<- 'ov7670 2-0021':pad0 [ACTIVE]
+	pad1: Output [UYVY2X8 320x240]
+		-> 'OMAP3 ISP CCDC output':pad0 [ACTIVE]
+		-> 'OMAP3 ISP resizer':pad0 []
+	pad2: Output [UYVY2X8 320x239]
+		-> 'OMAP3 ISP preview':pad0 []
+		-> 'OMAP3 ISP AEWB':pad0 [IMMUTABLE,ACTIVE]
+		-> 'OMAP3 ISP AF':pad0 [IMMUTABLE,ACTIVE]
+		-> 'OMAP3 ISP histogram':pad0 [IMMUTABLE,ACTIVE]
+
+- entity 6: OMAP3 ISP CCDC output (1 pad, 1 link)
+            type Node subtype V4L
+            device node name /dev/video2
+	pad0: Input 
+		<- 'OMAP3 ISP CCDC':pad1 [ACTIVE]
+
+- entity 7: OMAP3 ISP preview (2 pads, 4 links)
+            type V4L2 subdev subtype Unknown
+            device node name /dev/v4l-subdev3
+	pad0: Input [SGRBG10 4096x4096]
+		<- 'OMAP3 ISP CCDC':pad2 []
+		<- 'OMAP3 ISP preview input':pad0 []
+	pad1: Output [YUYV 4082x4088]
+		-> 'OMAP3 ISP preview output':pad0 []
+		-> 'OMAP3 ISP resizer':pad0 []
+
+- entity 8: OMAP3 ISP preview input (1 pad, 1 link)
+            type Node subtype V4L
+            device node name /dev/video3
+	pad0: Output 
+		-> 'OMAP3 ISP preview':pad0 []
+
+- entity 9: OMAP3 ISP preview output (1 pad, 1 link)
+            type Node subtype V4L
+            device node name /dev/video4
+	pad0: Input 
+		<- 'OMAP3 ISP preview':pad1 []
+
+- entity 10: OMAP3 ISP resizer (2 pads, 4 links)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev4
+	pad0: Input [UYVY2X8 1280x720 (0,0)/1280x720]
+		<- 'OMAP3 ISP CCDC':pad1 []
+		<- 'OMAP3 ISP preview':pad1 []
+		<- 'OMAP3 ISP resizer input':pad0 [ACTIVE]
+	pad1: Output [UYVY2X8 640x360]
+		-> 'OMAP3 ISP resizer output':pad0 [ACTIVE]
+
+- entity 11: OMAP3 ISP resizer input (1 pad, 1 link)
+             type Node subtype V4L
+             device node name /dev/video5
+	pad0: Output 
+		-> 'OMAP3 ISP resizer':pad0 [ACTIVE]
+
+- entity 12: OMAP3 ISP resizer output (1 pad, 1 link)
+             type Node subtype V4L
+             device node name /dev/video6
+	pad0: Input 
+		<- 'OMAP3 ISP resizer':pad1 [ACTIVE]
+
+- entity 13: OMAP3 ISP AEWB (1 pad, 1 link)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev5
+	pad0: Input 
+		<- 'OMAP3 ISP CCDC':pad2 [IMMUTABLE,ACTIVE]
+
+- entity 14: OMAP3 ISP AF (1 pad, 1 link)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev6
+	pad0: Input 
+		<- 'OMAP3 ISP CCDC':pad2 [IMMUTABLE,ACTIVE]
+
+- entity 15: OMAP3 ISP histogram (1 pad, 1 link)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev7
+	pad0: Input 
+		<- 'OMAP3 ISP CCDC':pad2 [IMMUTABLE,ACTIVE]
+
+- entity 16: soc1040 3-005d (1 pad, 1 link)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev8
+	pad0: Output [UYVY2X8 1280x720]
+		-> 'OMAP3 ISP CSI2a':pad0 [IMMUTABLE,ACTIVE]
+
+- entity 17: ov7670 2-0021 (1 pad, 1 link)
+             type V4L2 subdev subtype Unknown
+             device node name /dev/v4l-subdev9
+	pad0: Output [UYVY2X8 320x240]
+		-> 'OMAP3 ISP CCDC':pad0 [ACTIVE]
+
+

@@ -1,0 +1,41 @@
+<4>Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+<4>Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+<4>Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+<4>Spurious irq 95: 0xffffffdf, please flush posted write for irq 56
+<1>iwioctl: cmd=0x8bed not allowed in this mode
+<7>hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002
+<7>hub 1-0:1.0: port 1, status 0100, change 0001, 12 Mb/s
+<6>usb 1-1: USB disconnect, address 2
+<7>usb 1-1: unregistering device
+<7>usb 1-1: usb_disable_device nuking all URBs
+<7>usb 1-1: unregistering interface 1-1:1.0
+<7>usb 1-1: uevent
+<7>twl4030_usb twl4030_usb: HW_CONDITIONS 0x40/64; link 1
+<7>twl4030_usb twl4030_usb: HW_CONDITIONS 0x44/68; link 3
+<7>twl4030_usb twl4030_usb: HW_CONDITIONS 0x44/68; link 3
+<7>hub 1-0:1.0: hub_resume
+<7>hub 1-0:1.0: port 1: status 0101 change 0001
+<7>usb 1-1: default language 0x0409
+<3>usb 1-1: device v0930 p6545 is not supported
+<7>usb 1-1: udev 3, busnum 1, minor = 2
+<6>usb 1-1: New USB device found, idVendor=0930, idProduct=6545
+<6>usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>usb 1-1: Product: USB Flash Memory
+<6>usb 1-1: SerialNumber: 001D0F0CAAD35B89031014E9
+<7>usb 1-1: uevent
+<7>usb 1-1: usb_probe_device
+<6>usb 1-1: configuration #1 chosen from 1 choice
+<7>usb 1-1: adding 1-1:1.0 (config #1, interface 0)
+<7>usb 1-1:1.0: uevent
+<7>usb-storage: device found at 3
+<7>usb-storage: waiting for device to settle before scanning
+<5>sd 1:0:0:0: [sda] 7936000 512-byte logical blocks: (4.06 GB/3.78 GiB)
+<5>sd 1:0:0:0: [sda] Write Protect is off
+<7>sd 1:0:0:0: [sda] Mode Sense: 23 00 00 00
+<5>sd 1:0:0:0: [sda] Assuming drive cache: write through
+<5>sd 1:0:0:0: [sda] Assuming drive cache: write through
+<6> sda:<5>sd 1:0:0:0: [sda] Assuming drive cache: write through
+<5>sd 1:0:0:0: [sda] Attached SCSI removable disk
+
+<6>Enabling CTS wakeup for UART2<6>omap3isp omap3isp: Unable to stop OMAP3 ISP CCDC
+<6>ov7670 2-0021: Disabling Streaming

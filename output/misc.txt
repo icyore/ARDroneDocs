@@ -1,0 +1,13 @@
+ 53 network_throughput
+ 54 network_latency
+ 55 cpu_dma_latency
+ 66 gpio
+ 56 log_system
+ 57 log_radio
+ 58 log_events
+ 59 log_main
+ 60 binder
+ 61 alarm
+223 uinput
+ 62 ubi_ctrl
+ 63 ashmem

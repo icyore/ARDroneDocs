@@ -1,0 +1,1 @@
+Linux version 2.6.32.9-g0d605ac (aferran@FR-B-800-0053) (gcc version 4.5.1 (Sourcery G++ Lite 2010.09-50) ) #1 PREEMPT Fri Jun 1 16:38:28 CEST 2012
